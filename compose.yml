@@ -5,8 +5,6 @@ services:
     image: shaikmustafa/automation:db
     ports:
       - "3306:3306"
-    deploy:
-      replicas: 3
     networks:
       - mynetwork
 
@@ -14,8 +12,6 @@ services:
     image: shaikmustafa/automation:app
     ports:
       - "1111:8080"
-    deploy:
-      replicas: 3
     depends_on:
       - devopsdb
     networks:
@@ -23,4 +19,4 @@ services:
 
 networks:
   mynetwork:
-    driver: overlay
+    driver: bridge
