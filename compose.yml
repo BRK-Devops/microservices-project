@@ -2,16 +2,16 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: shaikmustafa/automation:db
+    image: brkdockerhub/myapp:database
     ports:
       - "3306:3306"
     networks:
       - mynetwork
 
   application:
-    image: shaikmustafa/automation:app
+    image: brkdockerhub/myapp:application
     ports:
-      - "1111:8080"
+      - "2222:8080"
     depends_on:
       - devopsdb
     networks:
