@@ -95,6 +95,7 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 | [![Profile](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profile.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profile.png) | [![Profile Setup](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profilesetup.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profilesetup.png) |
 
 ### 🗄️ Database Verification
+
 | Field | Value |
 |-------|-------|
 | **ID** | 14 |
@@ -106,6 +107,10 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 | **Gender** | male |
 | **Status** | unMarried |
 | **Password** | `$2a$11$CIXpDdTbraDG3ifrSaew...` ✅ bcrypt hashed |
+
+> User data persisted in MySQL — password encrypted with bcrypt ✅
+
+[![DB Verification](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/databaseverify.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/databaseverify.png)
 
 ---
 
