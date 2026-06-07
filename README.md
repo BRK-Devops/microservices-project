@@ -60,6 +60,10 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 | **File Size** | 46.2 MB |
 | **Integrity** | SHA1 + MD5 verified |
 
+> WAR file versioned, checksummed and stored in Nexus before containerization ✅
+
+[![Nexus Artifact](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/Artifact-storage.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/Artifact-storage.png)
+
 ### 5️⃣ Docker — Image Build
 - `docker build -t brkdockerhub/mydockerproject:app Docker-app`
 - `docker build -t brkdockerhub/mydockerproject:db Docker-db`
