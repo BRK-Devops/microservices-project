@@ -23,7 +23,7 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 
 ### 1️⃣ Code Checkout
 - Branch: `main`
-- Repo: `https://github.com/JTD-Devops/microservicesproject-docker.git`
+- Repo: `https://github.com/BRK-Devops/microservicesproject-docker.git`
 
 ### 2️⃣ SonarQube — Code Quality Analysis
 
@@ -132,7 +132,7 @@ pipeline {
         stage("code") {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/JTD-Devops/microservicesproject-docker.git'
+                    url: 'https://github.com/BRK-Devops/microservicesproject-docker.git'
             }
         }
         stage("Code Quality Analysis with Sonarqube") {
