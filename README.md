@@ -83,17 +83,16 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 
 ## 🖥️ Application Screenshots
 
-## 🖥️ Application Screenshots
 
 ### Login & Registration
 | Login Page | Sign Up Page |
 |-----------|-------------|
-| ![Login](./screenshots/app-login.png) | ![Signup](./screenshots/app-signup.png) |
+| [![Login](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-login.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-login.png) | [![Signup](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-signup.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-signup.png) |
 
-### Social Feed & User Profile
-| Social Feed | User Profile |
-|------------|-------------|
-| ![Feed](./screenshots/app-feed.png) | ![Profile](./screenshots/app-profile.png) |
+### User Profile & Setup
+| Profile Feed | Profile Setup |
+|-------------|--------------|
+| [![Profile](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profile.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profile.png) | [![Profile Setup](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profilesetup.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/app-profilesetup.png) |
 
 ### 🗄️ Database Verification
 | Field | Value |
