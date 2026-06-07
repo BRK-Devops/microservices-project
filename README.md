@@ -40,6 +40,10 @@ Application: A full-stack social networking web app with Login, Sign Up, User Pr
 | **Code Coverage** | 6.7% on 456 lines |
 | **Maintainability** | A |
 
+> SonarQube Quality Gate PASSED — all conditions met ✅
+
+[![SonarQube](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/sonarqube-analysis.png)](https://raw.githubusercontent.com/BRK-Devops/microservices-project/main/sonarqube-analysis.png)
+
 ### 3️⃣ Maven Build
 - Command: `mvn clean package`
 - Output: `vprofile-v2.war`
